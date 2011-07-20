@@ -1,0 +1,13 @@
+Source: yjp-controller-api
+Section: misc
+Priority: extra
+Uploaders: Mikhail Panchenko <pancakes@simplegeo.com>
+Maintainer: SimpleGeo Nerds <nerds@simplegeo.com>
+build-Depends: cdbs, debhelper (>= 7), binutils
+Standards-Version: 3.9.1
+
+Package: yjp-controller-api
+Depends: ${shlibs:Depends}, ${misc:Depends}, yjpagent
+Architecture: all
+Description: YourKit Java profiler programmatic controller api 
+ http://www.yourkit.com/
